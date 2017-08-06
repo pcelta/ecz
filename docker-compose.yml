@@ -1,0 +1,8 @@
+version: '2'
+services:
+  php7:
+    image: richarvey/nginx-php-fpm:1.2.3
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - 80:80
