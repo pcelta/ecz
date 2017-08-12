@@ -2,19 +2,22 @@
 <!-- Created with Liquid Studio -->
 <bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:noNamespaceSchemaLocation="BookStore.xsd">
-    <book price="730.54" ISBN="string" publicationdate="2016-02-27">
+    <book price="730.54" ISBN="ISBN-HP" publicationdate="2016-02-27">
         <title>Harry Potter and the Order of the Phoenix</title>
         <author>
             <first-name>JK</first-name>
             <last-name>Rowling</last-name>
         </author>
         <genre>Magical</genre>
+        <pages>322</pages>
     </book>
-    <book price="6738.774" ISBN="string">
+    <book price="6738.774" ISBN="ISBN-RING">
         <title>The Lord of the Rings: The Fellowship of the Ring</title>
         <author>
             <first-name>JRR</first-name>
             <last-name>Tolkien</last-name>
         </author>
+        <genre>Magical</genre>
+        <pages>546</pages>
     </book>
 </bookstore>
